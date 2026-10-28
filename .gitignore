@@ -1,0 +1,49 @@
+# Environment variables & secrets (CRITICAL: Never commit .env files)
+.env
+.env.local
+.env.*.local
+*.env
+**/.env
+
+# Dependencies
+node_modules/
+**/node_modules/
+.pnp
+.pnp.js
+
+# Python virtual environments & bytecode
+__pycache__/
+**/*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+.pytest_cache/
+
+# ChromaDB & vector store persisted data
+data/chroma_db/
+**/chroma_db/
+data/
+
+# Build artifacts & dist
+dist/
+dist-ssr/
+build/
+*.egg-info/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.log
+
+# Editor & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
