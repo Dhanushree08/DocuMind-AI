@@ -222,8 +222,8 @@ git commit -m "feat: Initial commit of DocuMind AI Enterprise Document Intellige
 # 5. Rename branch to main
 git branch -M main
 
-# 6. Link your remote GitHub repository (replace with your repo URL)
-git remote add origin https://github.com/<YOUR_GITHUB_USERNAME>/<YOUR_REPOSITORY_NAME>.git
+# 6. Link your remote GitHub repository
+git remote add origin https://github.com/Dhanushree08/DocuMind-AI.git
 
 # 7. Push to GitHub
 git push -u origin main
