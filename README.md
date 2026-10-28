@@ -202,32 +202,15 @@ Content-Type: application/json
 
 ---
 
-## 📤 How to Push This Project to GitHub
+## 🤝 Contributing
 
-Follow these steps to initialize Git and push the project to your GitHub repository:
+Contributions, issues, and feature requests are welcome!
 
-```bash
-# 1. Open your terminal in the project root directory
-cd "d:\Enterprise Document Intelligence Platform"
-
-# 2. Initialize a git repository
-git init
-
-# 3. Add all files (the root .gitignore ensures .env and node_modules are excluded)
-git add .
-
-# 4. Commit your files
-git commit -m "feat: Initial commit of DocuMind AI Enterprise Document Intelligence Platform"
-
-# 5. Rename branch to main
-git branch -M main
-
-# 6. Link your remote GitHub repository
-git remote add origin https://github.com/Dhanushree08/DocuMind-AI.git
-
-# 7. Push to GitHub
-git push -u origin main
-```
+1. Fork the project (`https://github.com/Dhanushree08/DocuMind-AI/fork`)
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m "feat: Add some AmazingFeature"`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
 ---
 
